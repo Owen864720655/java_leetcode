@@ -46,7 +46,8 @@ public class Problem1TwoSum {
 		int[] nums = new int[] { 2, 7, 11, 15 };
 		int target = 18;
 
-		int[] result = new Problem1TwoSum().twoSum(nums, target);
+		Problem1TwoSum problem = new Problem1TwoSum();
+		int[] result = problem.twoSum(nums, target);
 
 		for (int index = 0; index < result.length; index++) {
 			System.out.println(result[index] + " ");
